@@ -1,0 +1,19 @@
+{
+  "name": "pname",
+  "version": "1.0.0",
+  "description": "Cloudflare worker TypeScript template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "format": "prettier --write '**/*.{ts,js,css,json,md}'"
+  },
+  "author": "author",
+  "license": "MIT OR Apache-2.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^2.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5",
+    "wrangler": "^3.60.0"
+  }
+}
