@@ -32,12 +32,12 @@ npx wrangler kv:namespace create hammal_cache
 pnpm run deploy
 
 ```
-5. Workers自定义域名(默认的 workers.dev 域名有墙)
+4. Workers自定义域名(默认的 workers.dev 域名有墙)
 ```
 进入CloudFlare的Dashboard -> Workers和Pages -> docker_hammal -> 设置 -> 触发器 -> 添加自定义域
 ```
 
-6. 配置Docker镜像地址
+5. 配置Docker镜像地址
 ```
 sudo vi /etc/docker/daemon.json
 
