@@ -1,4 +1,4 @@
-name = "hammal"
+name = "docker_hammal"
 account_id = "your cloudflare accountId"
 main = "src/index.ts"
 workers_dev = true
